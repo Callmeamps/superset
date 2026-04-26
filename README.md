@@ -4,20 +4,11 @@
 
 ### The Code Editor for AI Agents
 
-[![GitHub stars](https://img.shields.io/github/stars/superset-sh/superset?style=flat&logo=github)](https://github.com/superset-sh/superset/stargazers)
-[![GitHub release](https://img.shields.io/github/v/release/superset-sh/superset?style=flat&logo=github)](https://github.com/superset-sh/superset/releases)
-[![License](https://img.shields.io/github/license/superset-sh/superset?style=flat)](LICENSE.md)
-[![Twitter](https://img.shields.io/badge/@superset__sh-555?logo=x)](https://x.com/superset_sh)
-[![Discord](https://img.shields.io/badge/Discord-555?logo=discord)](https://discord.gg/cZeD9WYcV7)
-
 <br />
 
 Orchestrate swarms of Claude Code, Codex, and more in parallel.<br />
 Works with any CLI agent. Built for local worktree-based development.
 
-<br />
-
-[**Download for macOS**](https://github.com/superset-sh/superset/releases/latest) &nbsp;&bull;&nbsp; [Documentation](https://docs.superset.sh) &nbsp;&bull;&nbsp; [Changelog](https://github.com/superset-sh/superset/releases) &nbsp;&bull;&nbsp; [Discord](https://discord.gg/cZeD9WYcV7)
 
 <br />
 
@@ -79,19 +70,12 @@ If it runs in a terminal, it runs on Superset
 
 ## Getting Started
 
-### Quick Start (Pre-built)
-
-**[Download Superset for macOS](https://github.com/superset-sh/superset/releases/latest)**
-
 ### Build from Source
-
-<details>
-<summary>Click to expand build instructions</summary>
 
 **1. Clone the repository**
 
 ```bash
-git clone https://github.com/superset-sh/superset.git
+git clone https://github.com/callmeamps/superset.git
 cd superset
 ```
 
@@ -242,12 +226,12 @@ We welcome contributions! If you have a suggestion that would make Superset bett
 4. Push to the branch (`git push origin feature/amazing-feature`)
 5. Open a Pull Request
 
-You can also [open issues](https://github.com/superset-sh/superset/issues) for bugs or feature requests.
+You can also [open issues](https://github.com/callmeamps/superset/issues) for bugs or feature requests.
 
 See [CONTRIBUTING.md](CONTRIBUTING.md) for detailed instructions and code of conduct.
 
-<a href="https://github.com/superset-sh/superset/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=superset-sh/superset" />
+<a href="https://github.com/callmeamps/superset/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=callmeamps/superset" />
 </a>
 
 ## Community
@@ -256,8 +240,8 @@ Join the Superset community to get help, share feedback, and connect with other 
 
 - **[Discord](https://discord.gg/cZeD9WYcV7)** — Chat with the team and community
 - **[Twitter](https://x.com/superset_sh)** — Follow for updates and announcements
-- **[GitHub Issues](https://github.com/superset-sh/superset/issues)** — Report bugs and request features
-- **[GitHub Discussions](https://github.com/superset-sh/superset/discussions)** — Ask questions and share ideas
+- **[GitHub Issues](https://github.com/callmeamps/superset/issues)** — Report bugs and request features
+- **[GitHub Discussions](https://github.com/callmeamps/superset/discussions)** — Ask questions and share ideas
 
 ### Team
 
