@@ -6,7 +6,7 @@
 	"scripts": {
 		"build": "next build",
 		"clean": "git clean -xdf .cache .next .turbo node_modules",
-		"dev": "dotenv -e ../../.env -- sh -c 'next dev --port ${MARKETING_PORT:-3002}'",
+		"dev": "dotenv -e ../../.env -- sh -c 'next dev --webpack --port ${MARKETING_PORT:-3002}'",
 		"start": "next start",
 		"typecheck": "tsc --noEmit"
 	},
@@ -15,10 +15,10 @@
 		"@react-three/drei": "^10.7.6",
 		"@react-three/fiber": "^9.4.0",
 		"@sentry/nextjs": "^10.36.0",
-		"@superset/auth": "workspace:*",
-		"@superset/email": "workspace:*",
-		"@superset/shared": "workspace:*",
-		"@superset/ui": "workspace:*",
+		"@superset/auth": "*",
+		"@superset/email": "*",
+		"@superset/shared": "*",
+		"@superset/ui": "*",
 		"@t3-oss/env-nextjs": "^0.13.8",
 		"framer-motion": "^12.23.26",
 		"geist": "^1.7.0",
@@ -44,7 +44,7 @@
 		"zod": "^4.3.5"
 	},
 	"devDependencies": {
-		"@superset/typescript": "workspace:*",
+		"@superset/typescript": "*",
 		"@tailwindcss/postcss": "^4.0.9",
 		"@tailwindcss/typography": "^0.5.16",
 		"@types/mdx": "^2.0.13",

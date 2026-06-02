@@ -6,7 +6,7 @@
 	"scripts": {
 		"build": "next build",
 		"clean": "git clean -xdf .cache .next .turbo node_modules",
-		"dev": "dotenv -e ../../.env -- sh -c 'next dev --port ${API_PORT:-3001}'",
+		"dev": "dotenv -e ../../.env -- sh -c 'next dev --webpack --port ${API_PORT:-3001}'",
 		"start": "next start --port 3001",
 		"typecheck": "tsc --noEmit"
 	},
@@ -22,11 +22,11 @@
 		"@sentry/nextjs": "^10.36.0",
 		"@slack/types": "^2.19.0",
 		"@slack/web-api": "^7.13.0",
-		"@superset/auth": "workspace:*",
-		"@superset/db": "workspace:*",
-		"@superset/mcp": "workspace:*",
-		"@superset/shared": "workspace:*",
-		"@superset/trpc": "workspace:*",
+		"@superset/auth": "*",
+		"@superset/db": "*",
+		"@superset/mcp": "*",
+		"@superset/shared": "*",
+		"@superset/trpc": "*",
 		"@t3-oss/env-nextjs": "^0.13.8",
 		"@tavily/core": "^0.7.1",
 		"@trpc/server": "^11.7.1",
@@ -50,7 +50,7 @@
 		"zod": "^4.3.5"
 	},
 	"devDependencies": {
-		"@superset/typescript": "workspace:*",
+		"@superset/typescript": "*",
 		"@types/lodash.chunk": "^4.2.9",
 		"@types/node": "^24.9.1",
 		"@types/react": "~19.2.2",

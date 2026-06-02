@@ -14,15 +14,15 @@
 		"typecheck": "tsc --noEmit --emitDeclarationOnly false"
 	},
 	"dependencies": {
-		"@superset/host-service": "workspace:*",
-		"@superset/workspace-fs": "workspace:*",
+		"@superset/host-service": "*",
+		"@superset/workspace-fs": "*",
 		"@tanstack/react-query": "^5.90.19",
 		"@trpc/client": "^11.7.1",
 		"@trpc/react-query": "^11.7.1",
 		"superjson": "^2.2.5"
 	},
 	"devDependencies": {
-		"@superset/typescript": "workspace:*",
+		"@superset/typescript": "*",
 		"@types/react": "~19.2.2",
 		"react": "19.2.0",
 		"typescript": "^5.9.3"

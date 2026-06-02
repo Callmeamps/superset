@@ -15,13 +15,13 @@
 		"test": "bun test"
 	},
 	"dependencies": {
-		"@superset/ui": "workspace:*",
+		"@superset/ui": "*",
 		"lucide-react": "^0.563.0",
 		"react-dnd": "^16.0.1",
 		"zustand": "^5.0.8"
 	},
 	"devDependencies": {
-		"@superset/typescript": "workspace:*",
+		"@superset/typescript": "*",
 		"@types/bun": "^1.2.17",
 		"@types/react": "~19.2.2",
 		"react": "19.2.0",

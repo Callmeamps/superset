@@ -23,13 +23,13 @@
 	},
 	"dependencies": {
 		"@modelcontextprotocol/sdk": "^1.26.0",
-		"@superset/db": "workspace:*",
-		"@superset/shared": "workspace:*",
+		"@superset/db": "*",
+		"@superset/shared": "*",
 		"drizzle-orm": "0.45.2",
 		"zod": "^4.3.5"
 	},
 	"devDependencies": {
-		"@superset/typescript": "workspace:*",
+		"@superset/typescript": "*",
 		"@types/node": "^24.9.1",
 		"bun-types": "^1.3.1",
 		"typescript": "^5.9.3"
